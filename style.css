@@ -1,0 +1,72 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Center the calculator */
+#calc {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Calculator content box */
+#content {
+    background: #f4f1de; 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Input buttons */
+#content form input {
+    border: 0;
+    outline: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 15px;
+    margin: 10px;
+    cursor: pointer;
+    background: #3d405b;
+    color: #ffffff; 
+}
+
+/* Backspace button */
+#backspace {
+    background-color: #e07a5f;
+    color: white;
+}
+
+/* Result container */
+#res {
+    padding: 10px;
+}
+
+/* Clear button */
+#clear {
+    background-color: #e07a5f; 
+    color: white;
+}
+
+/* Output display */
+form #output {
+    display: flex;
+    justify-content: flex-end;
+    margin: 15px 0;
+}
+
+/* Output field styling */
+form #output input {
+    text-align: right;
+    flex: 1;
+    font-size: 25px;
+    background: #81b29a;
+    color: #333;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
